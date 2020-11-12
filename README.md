@@ -18,5 +18,8 @@ git push origin --delete newfeature
 
 ## Clean branch
 git reset --hard HEAD
+
 git clean -xfd
+
 git pull
+
