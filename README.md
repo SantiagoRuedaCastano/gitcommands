@@ -23,3 +23,8 @@ git clean -xfd
 
 git pull
 
+## Delete a commit from a branch
+
+git reset --hard <hash-commit-id>
+
+git push origin HEAD --force
