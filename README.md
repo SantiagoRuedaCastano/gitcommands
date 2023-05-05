@@ -1,8 +1,9 @@
 # git commands
 
 
-## Create branches
-git branch newfeature
+## Create branches 
+
+    git branch newfeature
 
 git checkout newfeature
 
