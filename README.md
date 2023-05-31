@@ -29,3 +29,8 @@
     git reset --hard <hash-commit-id>
 
     git push origin HEAD --force
+    
+    
+## Reset a file as another branch
+
+    git checkout <branch> -- <path/to/file>
