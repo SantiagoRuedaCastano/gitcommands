@@ -34,3 +34,19 @@
 ## Reset a file as another branch
 
     git checkout <branch> -- <path/to/file>
+
+## Reset git
+
+    git config --local --unset credential.helper
+    git config --global --unset credential.helper
+    git config --system --unset credential.helper
+    
+    git config --local --unset user.name
+    git config --global --unset user.name
+    git config --system --unset user.name
+    
+    git config --local --unset user.email
+    git config --global --unset user.email
+    git config --system --unset user.email
+
+    
